@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\Memory\GridException</OriginalElement>
+  <nodes>
+    <node x="109.0" y="235.0">\Memory\PersistSession</node>
+    <node x="166.0" y="80.0">\Memory\TextCardFactory</node>
+    <node x="109.0" y="390.0">\Memory\ImageCard</node>
+    <node x="415.0" y="310.0">\Memory\Grid</node>
+    <node x="0.0" y="235.0">\Memory\PersistFile</node>
+    <node x="56.25" y="155.0">\Memory\IPersistable</node>
+    <node x="253.0" y="390.0">\Memory\GridException</node>
+    <node x="265.0" y="310.0">\Exception</node>
+    <node x="0.0" y="80.0">\Memory\ImageCardFactory</node>
+    <node x="97.5" y="0.0">\Memory\ICardFactory</node>
+    <node x="0.0" y="390.0">\Memory\TextCard</node>
+    <node x="71.0" y="310.0">\Memory\Card</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\Memory\TextCard" target="\Memory\Card">
+      <point x="0.0" y="-15.0" />
+      <point x="44.5" y="365.0" />
+      <point x="86.25" y="365.0" />
+      <point x="-15.25" y="15.0" />
+    </edge>
+    <edge source="\Memory\PersistSession" target="\Memory\IPersistable">
+      <point x="0.0" y="-15.0" />
+      <point x="167.0" y="210.0" />
+      <point x="130.5" y="210.0" />
+      <point x="24.75" y="15.0" />
+    </edge>
+    <edge source="\Memory\PersistFile" target="\Memory\IPersistable">
+      <point x="0.0" y="-15.0" />
+      <point x="44.5" y="210.0" />
+      <point x="81.0" y="210.0" />
+      <point x="-24.75" y="15.0" />
+    </edge>
+    <edge source="\Memory\TextCardFactory" target="\Memory\ICardFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="234.0" y="55.0" />
+      <point x="181.5" y="55.0" />
+      <point x="28.0" y="15.0" />
+    </edge>
+    <edge source="\Memory\GridException" target="\Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="\Memory\ImageCardFactory" target="\Memory\ICardFactory">
+      <point x="0.0" y="-15.0" />
+      <point x="73.0" y="55.0" />
+      <point x="125.5" y="55.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="\Memory\ImageCard" target="\Memory\Card">
+      <point x="0.0" y="-15.0" />
+      <point x="158.5" y="365.0" />
+      <point x="116.75" y="365.0" />
+      <point x="15.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="235.5" y="210.0" />
+  <SelectedNodes />
+  <Categories />
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,14 @@
+@grid-columns:              12;
+@grid-gutter-width:         30px;
+@grid-float-breakpoint:     768px;
+.wrapper
+{
+    /*        width:900px; */
+    margin: 0 auto;
+}
+.card
+{
+    margin: 5px;
+    border: 1px solid grey;
+    height: 70px;
+}

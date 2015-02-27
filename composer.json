@@ -1,0 +1,21 @@
+{
+    "name": "najamhaq/memory",
+    "description": "A Simple Memory Game ",
+    "minimum-stability": "stable",
+    "license": "opensource",
+    "authors": [
+        {
+            "name": "Najam Haq",
+            "email": "mnajmulhaq@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Memory\\": "src/models",
+            "Exception\\": "src/exceptions"
+        }
+    }
+}

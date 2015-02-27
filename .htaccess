@@ -1,0 +1,14 @@
+# BEGIN Memory
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^new$  /src/controllers/new.php [L]
+RewriteRule ^$  /src/controllers/index.php [L]
+RewriteRule ^click$  /src/controllers/click.php [L]
+#RewriteRule ^$  /src/controllers/index.php [P]
+
+
+</IfModule>
+# END Memory
+
+
